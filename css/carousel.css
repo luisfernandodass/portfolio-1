@@ -1,0 +1,115 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+#galleryContainer { 
+  height: 500px;
+  width: 800px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+#galleryView {
+  height: 100vh;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#mainView {
+  height: 550px;
+  width: 370px;  
+  border-radius: 5px;
+  background-color: #eb9100;
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: 1;
+  transition: all 1s;  
+  
+  
+}
+
+#mainView:hover {
+  transform: scale(1.2);
+  transition: all 1s;    
+}
+
+#leftView {
+  height: 400px;
+  width: 200px;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform-origin: top right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;  
+}
+
+#leftView:hover {
+  opacity: 1;
+  transition: all 1s;
+}
+
+#rightView {
+  height: 400px;
+  width: 200px;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform-origin: top left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ transition: all 1s;
+}
+
+#rightView:hover {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.navBtns {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  opacity: 0.8;
+  background:  #249ED2;
+  cursor: pointer;
+  color: white;
+}
+
+.navBtns:hover {
+ transform: scale(1.1);
+  transition: all 1s;   
+  background:  #249ED2;
+}
+
+#navLeft {
+  left: 50px;
+}
+
+#navRight {
+  right: 50px;
+}
+
+#linkTag { 
+  cursor: pointer;
+  z-index: 1;
+  box-sizing: border-box;
+}

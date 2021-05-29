@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f167616c7f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/carousel.css"/>
+
+    <script src="https://kit.fontawesome.com/2c7fc28a2f.js"></script>
+
     <title>Book Save</title>
 </head>
 
@@ -35,40 +39,17 @@
                 Meus projetos
             </h1>
 
-                 <div class="row mt-5">
-                      
-                      <div class="card col-4">
-                         <img src="./img/booksave.png" class="card-img-top" alt="...">
-                         <div class="card-body">
-                         <p class="card-text">
-                            Tenha controle de quais e quantos livros você já leu<br>
-                            Tudo para melhorar a sua qualidade de leitura :)
-                        </p>
-                         <a href="#" class="btn button-see"> Ver > </a>
-                         </div>
-                       </div>
-
-                       <div class="card col-4">
-                         <img src="./img/diasvividos.png" class="card-img-top" alt="...">
-                         <div class="card-body">
-                         <p class="card-text">
-                         Conte quantos dias você já viveu<br>
-                         Espero que se supreenda ;)
-                         </p>
-                         <a href="#" class="btn button-see"> Ver > </a>
-                         </div>
-                       </div>
-
-                       <div class="card col-4">
-                         <img src="./img/contato.png" class="card-img-top" alt="...">
-                         <div class="card-body">
-                         <p class="card-text">
-                         Contate-me
-                         </p>
-                         <a href="#" class="btn button-see"> Ver > </a>
-                         </div>
-                       </div>
-                   </div>
+            <div id="galleryView">
+        <div id="galleryContainer">
+           <div id="leftView"></div>
+           <button id="navLeft" class="navBtns"><i class="fas fa-arrow-left fa-3x"></i></button>
+           <a id="linkTag">
+              <div id="mainView"></div>
+           </a>
+           <div id="rightView"></div>
+           <button id="navRight" class="navBtns"><i class="fas fa-arrow-right fa-3x"></i></button>
+        </div>
+      </div>     
          
                 <h1 class="title-aboutMe mt-5 mb-5">Sobre mim</h1>
 
@@ -116,7 +97,8 @@
                         <p>
                          Gestão Ágil com Scrum - Udemy<br><br>
                          User Experience - FIAP<br><br>
-                         DevOps & Agile Culture - FIAP
+                         DevOps & Agile Culture - FIAP<br><br>
+                         Interactivity with JavaScript - Coursera
                        </p>
                     </div>
         </div>
@@ -129,6 +111,7 @@
                  <a href="https://github.com/luisfernandodass"><i class="fab fa-github big-socialMedia"></i></a>
             <p class="by mt-5">Desenvolvido por Luis Fernando, 2021.</p>
         </footer>
+         <script src="js/carousel.js"></script>
     </div>
     
 
