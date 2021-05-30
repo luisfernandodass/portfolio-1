@@ -2,6 +2,8 @@ let imgObject = [
   "./img/booksave.png",
   "./img/diasvividos.png",
   "./img/contato.png",
+  "./img/shower.png",
+  "./img/pedepizza.png",
 ];
 
 let mainImg = 0;

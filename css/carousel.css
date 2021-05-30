@@ -21,7 +21,7 @@
 }
 
 #galleryView {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background: transparent;
   display: flex;
@@ -44,7 +44,7 @@
 }
 
 #mainView:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 1s;    
 }
 

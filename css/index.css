@@ -31,13 +31,17 @@ p{
   height: 55px;
 }
 
+.nav-link{
+  display: block;
+  padding-top: 20px;
+}
+
 .logo{
    font-family: Shadows Into Light;
    margin-right: 30%;
    font-size: 28px;
+    padding-top: 7px;
 }
-
-
 
 .seek-intern-position{
   text-align: center;
@@ -94,8 +98,11 @@ p{
   color: white;
   width: 100%;
   border-radius: 5px;
-  padding: 3rem;
-  
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .my-img{
@@ -115,18 +122,18 @@ p{
   color: white;
   width: 100%;
   border-radius: 5px;
-  padding: 3rem;
-  
+  padding-top: 3rem;
+  padding-left: 14rem;
+  padding-bottom: 1rem;
 }
-
 
 footer{
   background:  #249ED2;
   color: white;
   width: 100%;
   border-radius: 5px;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   
 }
