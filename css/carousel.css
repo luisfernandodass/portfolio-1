@@ -9,7 +9,7 @@
 
 #galleryContainer { 
   height: 500px;
-  width: 800px;
+  width: 100%;
   background: transparent;
   display: flex;
   flex-direction: row;
