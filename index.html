@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/2c7fc28a2f.js"></script>
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/carousel.css"/>
+    <link rel="stylesheet" href="css/animation.css"/>
 
     <title>Portifólio - Luis Fernando</title>
 </head>
@@ -47,7 +48,7 @@
             </h1>
 
             <div id="galleryView">
-                <div id="galleryContainer">
+                <div id="galleryContainer" data-anime="show">
                      <div id="leftView">
                          
                      </div>
@@ -73,9 +74,9 @@
         </div>
       </div>     
          
-                <h1 class="title-aboutMe mt-3">Sobre mim</h1>
+                <h1 class="title-aboutMe mt-3" data-anime="show">Sobre mim</h1>
 
-                <div class="about-me-container mt-3 row">
+                <div class="about-me-container mt-3 row" data-anime="show">
                     <div class="col-4">
                         <img src="./img/luis.jpeg"  class="my-img" alt="">
                     </div>
@@ -104,11 +105,11 @@
                     </div>
                 </div>
          
-        <h1 class="courses-title mt-3">
+        <h1 class="courses-title mt-3" data-anime="show">
           Cursos  
         </h1>
 
-        <div class="container-courses row">
+        <div class="container-courses row" data-anime="show">
 
                     <div class="col-6">
                        <p>
@@ -132,9 +133,9 @@
                     </div>
         </div>
       
-        <footer>
+        <footer data-anime="show">
             <h1 class="mb-5">
-              Entre em contato
+              Contato
             </h1>
                  <a href="https:/www.linkedin.com/in/luisfernandodass/" target="_blank">
                     <i class="fab fa-linkedin-in big-socialMedia"></i>
@@ -153,6 +154,7 @@
             </p>
         </footer>
 
+         <script src="js/animation.js"></script>
          <script src="js/carousel.js"></script>
 
     </div>

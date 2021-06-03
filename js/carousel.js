@@ -1,6 +1,6 @@
 let imgObject = [
   "./img/booksave.png",
-  "./img/diasvividos.png",
+  "./img/diasvividos.svg",
   "./img/contato.png",
   "./img/shower.png",
   "./img/pedepizza.png",
@@ -59,6 +59,3 @@ document.getElementById("rightView").addEventListener("click", scrollRight);
 document.getElementById("leftView").addEventListener("click", scrollLeft);
 
 loadGallery();
-
-
-
