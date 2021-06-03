@@ -10,6 +10,7 @@ let mainImg = 0;
 let prevImg = imgObject.length - 1;
 let nextImg = 1;
 
+// Essa function pega a URL das imagens.
 function loadGallery() {
 
   let mainView = document.getElementById("mainView");
@@ -20,43 +21,42 @@ function loadGallery() {
   
   let rightView = document.getElementById("rightView");
   rightView.style.background = "url(" + imgObject[nextImg] + ")";
-};
+}
 
 function scrollRight() {
   
   prevImg = mainImg;
   mainImg = nextImg;
-  if (nextImg >= (imgObject.length -1)) {
-    nextImg = 0;
+  /* Se houver uma próxima img depois da última img do array, 
+     ela recebe a img do index 0 do array */
+  if (nextImg >= (imgObject.length -1)) { 
+    nextImg = 0; 
   } else {
-    nextImg++;
-  }; 
+    nextImg++; // recebe a img seguinte.
+  }
+
   loadGallery();
-};
+}
 
 function scrollLeft() {
   nextImg = mainImg
   mainImg = prevImg;
-   
+  
+  /* Se a img anterior tiver o index 0, 
+     ela recebe a última imagem do array. */
   if (prevImg === 0) {
     prevImg = imgObject.length - 1;
   } else {
-    prevImg--;
-  };
+    prevImg--; // recebe a img anterior.
+  }
+
   loadGallery();
-};
+}
 
 document.getElementById("navRight").addEventListener("click", scrollRight);
 document.getElementById("navLeft").addEventListener("click", scrollLeft);
 document.getElementById("rightView").addEventListener("click", scrollRight);
 document.getElementById("leftView").addEventListener("click", scrollLeft);
-document.addEventListener('keyup',function(e){
-    if (e.keyCode === 37) {
-    scrollLeft();
-  } else if(e.keyCode === 39) {
-    scrollRight();
-  }
-});
 
 loadGallery();
 

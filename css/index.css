@@ -27,32 +27,25 @@ p{
 
 .nav{
   border-bottom: 1px solid white;
-  margin-bottom: 5%;
+  
   height: 55px;
 }
 
 .nav-link{
   display: block;
-  padding-top: 20px;
+  padding-top: 7px;
 }
 
 .logo{
    font-family: Shadows Into Light;
-   margin-right: 30%;
+   margin-right: 45%;
    font-size: 28px;
-    padding-top: 7px;
-}
-
-.seek-intern-position{
-  text-align: center;
-  font-family: Nunito;
-  width: 100%;
-  color: white;
+   padding-top: 7px;
 }
 
 .title-myProjects{
   color: #249ED2;
-
+  margin: 0px;
 }
 
 .card{

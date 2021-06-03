@@ -17,7 +17,6 @@
   align-items: center;
   box-sizing: border-box;
   position: relative;
-
 }
 
 #galleryView {
@@ -27,20 +26,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 #mainView {
   height: 550px;
   width: 370px;  
   border-radius: 5px;
-  background-color: #eb9100;
+  background-color: #249ED2;
   margin-left: 20px;
   margin-right: 20px;
   z-index: 1;
-  transition: all 1s;  
-  
-  
+  transition: all 1s;    
 }
 
 #mainView:hover {
@@ -74,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
- transition: all 1s;
+  transition: all 1s;
 }
 
 #rightView:hover {
