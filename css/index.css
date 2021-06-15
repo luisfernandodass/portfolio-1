@@ -7,10 +7,10 @@ body{
   background: black;
 }
 
-.small-socialMedia{
+.small-social-media{
   line-height: 45px;
 }
-.small-socialMedia:hover{
+.ssmall-social-media:hover{
    color:  #249ED2;
 }
 
@@ -27,7 +27,6 @@ p{
 
 .nav{
   border-bottom: 1px solid white;
-  
   height: 55px;
 }
 
@@ -43,7 +42,49 @@ p{
    padding-top: 7px;
 }
 
-.title-myProjects{
+.first-about-me{
+  height: 85vh;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.first-line{
+  width: 71%;
+  height: 3px;
+  background: #249ED2;
+  border-radius: 5px;
+}
+
+.second-container{
+  padding-left: 5%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.toGoToLikedIn{
+  background: transparent;
+  margin: 5%;
+  border: 1;
+  padding: 5%;
+  border-radius: 5px;
+  border-color: #249ED2;
+}
+
+.toGoToGitHub{
+  background: transparent;
+  margin: 5%;
+  border: 1;
+  padding: 5%;
+  border-radius: 5px;
+  border-color: #249ED2;
+}
+
+
+.title-my-projects{
   color: #249ED2;
   margin: 0px;
 }
@@ -81,12 +122,11 @@ p{
   border-radius: 5px;
 }
 
-.title-aboutMe{
-  
+.more-about-me{
   color: #249ED2;
 }
 
-.about-me-container{
+.more-about-me-container{
   background:  #249ED2;
   color: white;
   width: 100%;
@@ -130,12 +170,12 @@ footer{
   text-align: center;
 }
 
-.big-socialMedia{
+.big-social-media{
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 3rem;
 }
 
-.big-socialMedia:hover{
+.big-social-media:hover{
   color: black;
 }

@@ -28,11 +28,15 @@
   align-items: center;
 }
 
+
+
 #mainView {
   height: 550px;
   width: 370px;  
+ 
   border-radius: 5px;
   background-color: #249ED2;
+  background-size: contain;
   margin-left: 20px;
   margin-right: 20px;
   z-index: 1;
