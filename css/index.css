@@ -7,13 +7,6 @@ body{
   background: black;
 }
 
-.small-social-media{
-  line-height: 45px;
-}
-.small-social-media:hover{
-   color:  #249ED2;
-}
-
 h1{
   color: white;
   width: 100%;
@@ -42,6 +35,13 @@ p{
    padding-top: 7px;
 }
 
+.small-social-media{
+  line-height: 45px;
+}
+.small-social-media:hover{
+   color:  #249ED2;
+}
+
 .first-container{
   height: 85vh;
   background: transparent;
@@ -56,14 +56,10 @@ p{
   height: 1px;
   background: #249ED2;
   border-radius: 5px;
-
 }
 
-
 .second-container{
-  
-  padding-right: 5%;
-   
+  padding-right: 5%; 
 }
 
 .circle{
@@ -72,7 +68,6 @@ p{
   border: 1px solid;
   border-color: #ffffff; 
   border-radius: 100%;
-
   animation: circle 30s linear infinite;
 }
 
@@ -86,7 +81,6 @@ p{
   position: absolute;
   width: 1px;
   height: 50%;
-  
   background: #249ED2; 
   margin-left: 50%;
 }
@@ -95,50 +89,42 @@ p{
   position: absolute;
   width: 1px;
   height: 50%;
-  
   background: #249ED2; 
   margin-left: 55%;
 }
+
+.container-seta{
+  text-align: center;
+  transform: rotate(90deg);
+  font-size: 38px;
+  height: 28px;
+  margin-bottom: 5%;
+}
+
+.seta{
+  animation: seta 1s linear infinite;
+  
+}
+
+.seta:hover{
+  cursor:pointer;
+  color: #249ED2;
+}
+
+
+@keyframes seta {
+  40% {
+    transform: translate(10px);
+  }
+}
+
 
 .title-my-projects{
   color: #249ED2;
   margin: 0px;
 }
 
-.card{
-  width: 50px;
-  height: 100%;
-  background: transparent;
-  color: #249ED2;
-}
-
-.card-img-top{
-  width: 80%;
-   border-radius: 5px;
-   height: 25rem;
-}
-
-.card-body{
-  padding-left: 0px;
-  width: 80%;
-}
-
-.button-see{
-  background: transparent;
-  border: 1px solid #249ED2;
-  color: white;
-  width: 100%;
-  border-radius: 50px;
-}
-
-.button-see:hover{
-  background: #249ED2;
-  border: 1px solid #249ED2;
-  color: black;
-  border-radius: 5px;
-}
-
-.more-about-me{
+.title-more-about-me{
   color: #249ED2;
 }
 
@@ -152,11 +138,6 @@ p{
   padding-right: 2rem;
   margin-left: 0;
   margin-right: 0;
-  /*
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  */
 }
 
 .my-img{
@@ -167,7 +148,7 @@ p{
   box-shadow: 1px 1px 4px black;
 }
 
-.courses-title{
+.title-courses{
   color: white;
 }
 
