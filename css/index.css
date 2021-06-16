@@ -10,7 +10,7 @@ body{
 .small-social-media{
   line-height: 45px;
 }
-.ssmall-social-media:hover{
+.small-social-media:hover{
    color:  #249ED2;
 }
 
@@ -42,7 +42,7 @@ p{
    padding-top: 7px;
 }
 
-.first-about-me{
+.first-container{
   height: 85vh;
   background: transparent;
   width: 100%;
@@ -53,36 +53,52 @@ p{
 
 .first-line{
   width: 71%;
-  height: 3px;
+  height: 1px;
   background: #249ED2;
   border-radius: 5px;
+
 }
+
 
 .second-container{
-  padding-left: 5%;
-
-  display: flex;
-  flex-direction: column;
+  
+  padding-right: 5%;
+   
 }
 
-.toGoToLikedIn{
-  background: transparent;
-  margin: 5%;
-  border: 1;
-  padding: 5%;
-  border-radius: 5px;
-  border-color: #249ED2;
+.circle{
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  border-color: #ffffff; 
+  border-radius: 100%;
+
+  animation: circle 30s linear infinite;
 }
 
-.toGoToGitHub{
-  background: transparent;
-  margin: 5%;
-  border: 1;
-  padding: 5%;
-  border-radius: 5px;
-  border-color: #249ED2;
+@keyframes circle {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
+.ln{
+  position: absolute;
+  width: 1px;
+  height: 50%;
+  
+  background: #249ED2; 
+  margin-left: 50%;
+}
+
+.lf{
+  position: absolute;
+  width: 1px;
+  height: 50%;
+  
+  background: #249ED2; 
+  margin-left: 55%;
+}
 
 .title-my-projects{
   color: #249ED2;
@@ -136,13 +152,18 @@ p{
   padding-right: 2rem;
   margin-left: 0;
   margin-right: 0;
+  /*
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  */
 }
 
 .my-img{
   border-radius: 100px;
   width: 150px;
   margin-left: 10%;
-  margin-top: 15%;
+  margin-top: 9%;
   box-shadow: 1px 1px 4px black;
 }
 
