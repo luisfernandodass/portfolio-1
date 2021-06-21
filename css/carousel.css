@@ -35,7 +35,7 @@
   width: 370px;  
  
   border-radius: 5px;
-  background-color: #249ED2;
+  background-color: #0077b5;
   background-size: contain;
   margin-left: 20px;
   margin-right: 20px;
@@ -89,7 +89,7 @@
   border: none;
   position: absolute;
   opacity: 0.8;
-  background:  #249ED2;
+  background:  #0077b5;
   cursor: pointer;
   color: white;
 }
@@ -97,7 +97,7 @@
 .navBtns:hover {
  transform: scale(1.1);
   transition: all 1s;   
-  background:  #249ED2;
+  background:  #0077b5;
 }
 
 #navLeft {

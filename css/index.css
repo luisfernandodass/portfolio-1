@@ -4,7 +4,7 @@
 }
 
 body{
-  background: black;
+  background: #000000;
 }
 
 h1{
@@ -39,7 +39,7 @@ p{
   line-height: 45px;
 }
 .small-social-media:hover{
-   color:  #249ED2;
+   color:  #0077b5;
 }
 
 .first-container{
@@ -54,7 +54,7 @@ p{
 .first-line{
   width: 71%;
   height: 1px;
-  background: #249ED2;
+  background: #0077b5;
   border-radius: 5px;
 }
 
@@ -81,7 +81,7 @@ p{
   position: absolute;
   width: 1px;
   height: 50%;
-  background: #249ED2; 
+  background: #0077b5; 
   margin-left: 50%;
 }
 
@@ -89,7 +89,7 @@ p{
   position: absolute;
   width: 1px;
   height: 50%;
-  background: #249ED2; 
+  background: #0077b5; 
   margin-left: 55%;
 }
 
@@ -108,7 +108,7 @@ p{
 
 .seta:hover{
   cursor:pointer;
-  color: #249ED2;
+  color: #0077b5;
 }
 
 
@@ -116,20 +116,20 @@ p{
   40% {
     transform: translate(10px);
   }
-}
+}z
 
 
 .title-my-projects{
-  color: #249ED2;
+  color: #0077b5;
   margin: 0px;
 }
 
 .title-more-about-me{
-  color: #249ED2;
+  color: #0077b5;
 }
 
 .more-about-me-container{
-  background:  #249ED2;
+  background:  #0077b5;
   color: white;
   width: 100%;
   border-radius: 5px;
@@ -163,7 +163,7 @@ p{
 }
 
 footer{
-  background:  #249ED2;
+  background:  #0077b5;
   color: white;
   width: 100%;
   border-radius: 5px;
