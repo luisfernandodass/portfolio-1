@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 501px){
 .carousel{
   text-align: center;
   margin: 3% auto;
@@ -77,9 +78,68 @@
   margin: 20% 15% 0% 15%;
 }
 
-
 .control:hover {
   transform: scale(1.1);
   transition: all 1s;   
   background:  #0077b5;
+}
+}
+
+@media (max-width: 500px){
+  .carousel{
+    text-align: center;
+    margin: 3% auto;
+  }
+  .carousel-inner{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+  }
+  .control {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 40%;
+    opacity: 0.8;
+    background:  #0077b5;
+    cursor: pointer;
+    color: white;
+  }
+  .imageProjects{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 3%;
+  }
+  .carousel-text{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .toGoToSite{
+    padding: 10px;
+    background: transparent;
+    border-color:#0077b5;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-family: Nunito;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .toGoToSite:hover{
+    background: #0077b5;
+  }
+  .chevron{
+    padding-left: 5%;
+    font-size: 12px;
+    border-radius: 50px;
+  }
 }

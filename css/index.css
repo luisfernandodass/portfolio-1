@@ -21,12 +21,12 @@ p{
   font-weight: bold;
 }
 
+@media (min-width:501px){
 .nav{
   display:flex;
   justify-content: space-between;
   border-bottom: 1px solid white;
   height: 55px;
- 
 }
 
 .nav-link{
@@ -60,6 +60,10 @@ p{
   font-size: 16px;
   font-family: Nunito;
   font-weight: bold;
+}
+
+.first-container p{
+  margin-bottom: 0px;
 }
 
 .first-line{
@@ -144,20 +148,25 @@ p{
   width: 100%;
   border-radius: 5px;
   display: flex;
-  padding: 30px 0px;
-  padding-right: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 50px;
   margin-bottom: 3%;
 }
 
 .container-my-img{
+  margin-right: 5%;
   align-self: center;
-  text-align: center;
 }
 
 .my-img{
   border-radius: 100px;
   width: 150px;
   box-shadow: 1px 1px 3px 1px black;
+}
+
+.text-about-me{
+  margin: 0 3%;
 }
 
 .title-courses{
@@ -200,4 +209,169 @@ footer{
 
 .big-social-media:hover{
   color: black;
+}
+}
+
+@media (max-width:500px){
+  .nav{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    height: 55px;
+  }
+  
+  .nav-link{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 160px;
+    padding-top: 7px;
+    margin-right: 1%;
+  }
+  
+  .logo{
+     font-family: Shadows Into Light; 
+     font-size: 24px;
+     padding-top: 7px;
+  }
+  
+  .small-social-media{
+    line-height: 45px;
+    font-size: 12px;
+  }
+  .small-social-media:hover{
+     color:  #0077b5;
+  }
+  
+  .first-container{
+    height: 45vh;
+    background: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: bold;
+  }
+  
+  .first-container p{
+    margin-bottom: 0px;
+  }
+  
+  .first-line{
+    width: 71%;
+    height: 1px;
+    background: #0077b5;
+    border-radius: 5px;
+  }
+  
+  .second-container{
+    padding-right: 5%; 
+  }
+  
+  .container-seta{
+    text-align: center;
+    transform: rotate(90deg);
+    font-size: 38px;
+    height: 28px;
+    margin-bottom: 5%;
+  }
+  
+  .seta{
+    animation: seta 1s linear infinite;
+  }
+  
+  .seta:hover{
+    cursor:pointer;
+    color: #0077b5;
+  }
+  
+  
+  @keyframes seta {
+    40% {
+      transform: translate(10px);
+    }
+  }
+  
+  .title-my-projects{
+    color: #0077b5;
+    margin: 0px;
+  }
+  
+  .title-more-about-me{
+    margin-top: 3%;
+    color: #0077b5;
+  }
+  
+  .more-about-me-container{
+    background:  #0077b5;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    padding: 20px 0;
+    font-size: 10px;
+  }
+  
+  .container-my-img{
+    margin-right: 5%;
+    align-self: center;
+    display: none;
+  }
+  
+  .my-img{
+    border-radius: 100px;
+    width: 150px;
+    box-shadow: 1px 1px 3px 1px black;
+  }
+  
+  .text-about-me{
+    margin: 0 3%;
+  }
+  
+  .title-courses{
+    color: white;
+    margin-bottom: 3%;
+  }
+  
+  
+  .container-name-courses{
+    background:transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+  }
+  
+  .container-name-courses div{
+    margin: 0 5%;
+  }
+  
+  footer{
+    background:  #0077b5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1% 0;
+    font-size: 12px;
+  }
+  
+  .footer-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .big-social-media{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+  
+  .big-social-media:hover{
+    color: black;
+  }
 }
