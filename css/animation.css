@@ -1,6 +1,6 @@
 [data-anime] {
 	opacity: 0;
-	transition: .8s
+	transition: 2s
 }
 
 [data-anime="show"] {

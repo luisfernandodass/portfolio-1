@@ -15,9 +15,9 @@
     <!---Abaixo link para icons---->
     <script src="https://kit.fontawesome.com/f167616c7f.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2c7fc28a2f.js"></script>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/carousel.css" />
-    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/animation.css"/>
 
     <title>Portifólio - Luis Fernando</title>
 </head>
@@ -30,20 +30,21 @@
                 Luis Fernando
             </span>
 
-            <a class="nav-link" href="https://www.linkedin.com/in/luisfernandodass/" target="_blank">
+            <div class="nav-link">
+            <a class="nav-link-social-media" href="https://www.linkedin.com/in/luisfernandodass/" target="_blank">
                 <i class="fab fa-linkedin-in small-social-media"></i>
             </a>
-            <a class="nav-link" href="https://api.whatsapp.com/send?phone=5511951228977&text=Ol%C3%A1%20Luis!"
+            <a class="nav-link-social-media" href="https://api.whatsapp.com/send?phone=5511951228977&text=Ol%C3%A1%20Luis!"
                 target="_blank">
                 <i class="fab fa-whatsapp small-social-media"></i>
             </a>
-            <a class="nav-link" href="https://www.instagram.com/luisfernandodass/" target="_blank">
+            <a class="nav-link-social-media" href="https://www.instagram.com/luisfernandodass/" target="_blank">
                 <i class="fab fa-instagram small-social-media"></i>
             </a>
-            <a class="nav-link" href="https://github.com/luisfernandodass" target="_blank">
+            <a class="nav-link-social-media" href="https://github.com/luisfernandodass" target="_blank">
                 <i class="fab fa-github small-social-media"></i>
             </a>
-
+        </div>
         </nav>
 
         <div class="first-container row">
@@ -66,12 +67,12 @@
             <a href="#projects"><i class="fas fa-chevron-right seta"></i></a>
         </div>
 
-        <h1 class="title-my-projects mt-2" id="projects">
+        <h1 class="title-my-projects mt-2" id="projects" data-anime="show">
             Meus projetos
         </h1>
 
-        <div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
+        <div id="carouselExampleFade" class="carousel carousel-fade" data-ride="carousel" data-anime="show">
+            <div class="carousel-inner" data-anime="show">
               <div class="carousel-item">
                 <img class="d-block w-100 imageProjects" src="/img/booksave.png" alt="Book Save">
                 <p class="carousel-text">Controle quantos e quais livros já leu.</p>
@@ -123,7 +124,9 @@
         </h1>
 
         <div class="more-about-me-container mt-3 row" data-anime="show">
-            <div class="col-4">
+
+            
+            <div class="col-4 container-my-img">
                 <img src="./img/luis2.png" class="my-img" alt="">
             </div>
 
@@ -131,8 +134,7 @@
                 <p>
                     Trabalhei como Aprendiz no Banco do Brasil de outubro de 2018 até outubro de 2020.
                     <br><br>
-                    Graças ao trabalho, entrei na faculdade e no curso de inglês na Number One, o qual terminei em Maio, no nível Upper Advanced.
-                    <br><br>   
+                    Graças ao trabalho, entrei na faculdade e no curso de inglês na Number One, o qual terminei em Maio, no nível Upper Advanced.  
                 </p>
             </div>
 
@@ -140,8 +142,7 @@
                 <p>
                     Hoje estou no 3° semestre na faculdade de Análise e Desenvolvimento de Sistemas na UNIP.
                     <br><br>
-                    No principal projeto da faculdade meu grupo tirou as notas: 8.0, 9.5, 9.5, o 10 virá no 4° semestre.
-                    <br><br>
+                    No principal projeto da faculdade meu grupo tirou as notas: 8.0, 9.5, 9.5, o 10 virá no 4° semestre.    
                 </p>
             </div>
         </div>
@@ -150,8 +151,9 @@
             Cursos
         </h1>
 
-        <div class="container-courses row" data-anime="show">
-            <div class="col-6">
+      
+            <div class="container-name-courses" data-anime="show">
+            <div>
                 <p>
                     Inglês - Number One<br><br>
                     JavaScript - Curso em Vídeo<br><br>
@@ -163,7 +165,7 @@
                 </p>
             </div>
 
-            <div class="col-6">
+            <div>
                 <p>
                     Sass - Udemy<br><br>
                     Gestão Ágil com Scrum - Udemy<br><br>
@@ -174,23 +176,28 @@
                 </p>
             </div>
         </div>
+       
 
         <footer data-anime="show">
             <h1 class="mb-5">
                 Contato
             </h1>
-            <a href="https:/www.linkedin.com/in/luisfernandodass/" target="_blank">
-                <i class="fab fa-linkedin-in big-social-media"></i>
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=5511951228977&text=Ol%C3%A1%20Luis!" target="_blank">
-                <i class="fab fa-whatsapp big-social-media" target="_blank"></i>
-            </a>
-            <a href="https://www.instagram.com/luisfernandodass/" target="_blank">
-                <i class="fab fa-instagram big-social-media"></i>
-            </a>
-            <a href="https://github.com/luisfernandodass" target="_blank">
-                <i class="fab fa-github big-social-media"></i>
-            </a>
+
+            <div class="footer-link">
+                <a href="https:/www.linkedin.com/in/luisfernandodass/" target="_blank">
+                    <i class="fab fa-linkedin-in big-social-media"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5511951228977&text=Ol%C3%A1%20Luis!" target="_blank">
+                    <i class="fab fa-whatsapp big-social-media" target="_blank"></i>
+                </a>
+                <a href="https://www.instagram.com/luisfernandodass/" target="_blank">
+                    <i class="fab fa-instagram big-social-media"></i>
+                </a>
+                <a href="https://github.com/luisfernandodass" target="_blank">
+                    <i class="fab fa-github big-social-media"></i>
+                </a>
+            </div>
+            
             <p class="mt-5">
                 Desenvolvido por Luis Fernando, 2021.
             </p>
