@@ -1,5 +1,5 @@
 
-@media (max-width:501px){
+
 	[data-anime] {
 		opacity: 0;
 		transition: 2s
@@ -13,4 +13,4 @@
 		opacity: 1;
 		transform: translate3d(0px, 0px, 0px);
 	}
-}
+
