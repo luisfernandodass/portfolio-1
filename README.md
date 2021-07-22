@@ -1,4 +1,4 @@
-# Portfólio - Luis Fernando
+# Portfólio | Luis Fernando
 
 ## Objective
 
