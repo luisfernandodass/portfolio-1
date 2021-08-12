@@ -23,7 +23,7 @@ The following tools were used to build the project:
 ![image](https://user-images.githubusercontent.com/67171626/126706508-ebab9c53-2542-469f-bff9-aa415bbc087e.png)
 
 ## License
-<img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
+<img src="https://img.shields.io/github/license/luisfernandodass/portfolio-1"/>
 
 ## Author
 
